@@ -1,0 +1,518 @@
+*{box-sizing: border-box;}
+html{
+    font-size: 100%;
+    max-width: 1350px;
+    min-width: 1350px;
+}
+#header1{
+    background-color: #000000;
+    display: flex;}
+nav ul{
+    list-style: none;
+    display: flex;}
+nav li{ /*To Add space in icon's of list items of nav.*/
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#navi,#nav-contacts  > ul{
+    list-style: none;
+    display: flex; 
+}
+#nav-contacts  li {
+    margin-top: 10px;
+    padding:0 5px;
+    text-align: center;
+    color: #ffffff;
+}
+#navi,#nav-contacts{ /*For moving entire div to left*/
+    margin-left: auto;
+}
+#nav-contacts  .btn{/*Changing the color of call me button*/
+    color: #000000;
+    text-transform: uppercase;
+    /* margin-top: 10px; */
+    padding: 2px;
+    background-color: #a2d84c;
+}
+.fab{ /* Changing Color of Social-link icons*/
+    color: gray;
+}
+.fas{/*Changing Color of Telephone's*/
+    color: #a2d84c;
+}
+#header2{
+    display: flex;
+}
+#header2 #navi{
+    margin-top: 20px;
+}
+#navi a{
+    text-decoration: none;
+    color: #000000;
+    margin: 0px 5px;
+}
+#navi a:hover{
+    font-weight: bolder;
+    border-bottom: 10px solid #febd19;
+}
+#logo{width: 100%;}
+
+/* ============================
+    Carousel Designnig Started
+   ===========================*/
+ .carousel-caption {
+  margin-bottom: 180px;
+} 
+
+/*========================
+    ADVANTAGES SECTION
+ ========================*/
+#about,#advantages,#services,#portfolio,#process,#people-about,#skills,#new-project,#contacts,#pacages{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+#advantages,#services,#about,#portfolio,#process,#people-about,#skills,#new-project,#contacts,#pacages > h1{
+    text-transform: uppercase;
+}
+.green-heading{
+    color: #668e19;
+}
+#advantages p{
+    text-align: center;
+    width: 700px;
+    color: #cccdcf;
+}
+/* ==========================================
+    IMAGES (Borders are used to see Alignment)
+   ==========================================*/  
+#images-advantages{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1400px;
+    /* border: 2px solid seagreen; */
+    margin: auto;}
+#images-advantages img{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  width: 190px;}
+#images-advantages p{
+    text-align: center;
+    width: 190px;
+    /* border: 2px solid salmon; */
+    font-size: 10px;
+    color: #bcbdbf;}
+#images-advantages h5{
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;}
+
+    /*========================
+      ABOUT-US SECTION STARTED
+      =======================*/
+#about,#about-div{
+    display: flex;
+    /* border: 2px solid orchid; */
+    background-color: #f2f2f2;
+}    
+#para{
+    display: flex;
+    /* border:2px solid greenyellow; */
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 10px;
+    flex-direction: column;}
+.yelow{
+    width: 200px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    box-shadow:0px 3px 5px darkorange;
+    margin-top: 10px;
+}  
+#about-div img{
+    width: 60%;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    /* border: 10px solid brown; */
+}
+ /*===============
+    OUR SERVICES
+   ===============*/ 
+#services {
+      padding-top: 30px;
+}   
+#images-services{
+    display: flex;
+    width: 1365px;
+    /* border:3px solid springgreen; */
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 60px;
+} 
+
+#services p{
+    text-align: center;
+    width: 700px;
+    color: #cccdcf;}
+ #images-services .card{
+    background-color: #f2f2f2;
+    width: 320px;
+}
+       
+#images-services img{
+    width: 50px;
+    margin: auto;
+}    
+#images-services h5{
+    margin: auto;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+#images-services p{
+    /* border: 2px solid salmon; */
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    color: #bcbdbf;
+    margin-top: 10px;
+}
+#images-services a{
+    color: #8ec641;
+    /* border: 2px solid grey; */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#images-services a:hover{
+    color: rgb(104, 102, 102);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+    /**====================
+        OUR_PORTFOLIO
+       ====================*/
+#portfolio {
+    background-color: #212121;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}       
+#portfolio  p{
+     text-align: center;
+     width: 700px;
+     color: #7b7b7d;
+}
+.white{
+    color: #ffffff;
+}
+
+ #portfolio-links{
+     width: 700px;
+ }   
+ #portfolio-links ul{
+    list-style: none;
+    display: flex;    
+    justify-content: space-around;
+    /* border: 2px solid burlywood; */
+ }
+ #portfolio-links a{
+    color: #f0f0f0;
+    text-decoration: none;
+    text-transform: uppercase; 
+ }
+ #portfolio-links a:hover{
+     color: #ff821c;
+     font-weight: bolder;
+ }
+     /*=================
+           PROCESS 
+      ==================*/   
+ #process{
+     margin-top: 20px;
+     margin-bottom: 60px;
+ }     
+ #process  p{
+    text-align: center;
+    width: 700px;
+    color: #7b7b7d;}         
+#process-images{
+    display: flex;
+    justify-content: space-around;  
+    /* border: 2px solid seagreen; */}
+#process-images{
+    /* border:2px solid sienna; */
+    width: fit-content;}
+#process-images img{
+    width: 120px;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid orangered; */}
+#process-images p{
+    /* border: 3px solid orchid; */
+    width: fit-content;
+    text-align: center;
+    color: #7b7b7d;}
+#process-images h5{
+    /* border: 2px solid green; */
+    display: flex;
+    width: fit-content;
+    margin: auto;}
+
+    /*====================
+        PEOPLE ABOUT US
+      ====================*/  
+#people-about{
+    background-color: #f2f2f2;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}      
+#people-about > p{
+    text-align: center;
+    width: 700px;
+    color: #7b7b7d;}     
+table h3{
+    text-transform: uppercase;
+    margin-left: 170px;
+    /* border: 2px solid greenyellow; */
+    width: fit-content;
+    margin-top: 40px;}    
+table p{
+    /* border: 2px solid plum; */
+    width: 360px;
+    margin-left: 170px;}
+tr{
+    display: flex;}
+
+table  img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: px;
+    width: 150px;
+    /* border:2px solid gold; */
+    float: left;}   
+#d1{
+    border-right: 2px solid #e0e1e2;
+    border-bottom: 2px solid #e0e1e2;
+    padding-bottom:30px ;
+}
+#d2{
+    border-bottom: 2px solid #e0e1e2;}
+
+#d3{
+    border-right: 2px solid #e0e1e2;}
+
+.circles{
+    margin-top: 30px;
+}
+.round {
+    height: 1rem;
+    width: 1rem;
+    margin: 0.1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    background-color: #ffbd1a;
+    border-radius: 50%;
+}
+.bt {
+    background-color: #ff831d;}
+
+    /*===========================================
+      OUR SKILLS(Many of its Images properties are used in Process section images )
+      ==========================================*/
+#skills {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#skills p{
+    text-align: center;
+    width: 700px;
+    color: #cccdcf;}
+#skill-images{
+    display: flex;
+    justify-content: space-around; 
+    width: 900px;}
+#skill-images div{width: fit-content;}
+#skill-images img{
+    width: 120px;
+    display: flex;
+    margin: auto;}    
+#skill-images h5{
+    display: flex;
+    width: fit-content;
+    text-transform: uppercase;}
+
+    /**================
+        PACAGES
+       =================*/
+#pacages p{
+    text-align: center;
+    width: 700px;
+    color: rgb(128, 127, 127);
+    padding-bottom: 30px;
+}
+#pacages{
+    background-color: #f2f2f2;
+    padding-top: 20px;
+}    
+#pacages-pricing{
+    display: flex;
+    /* border: 2px solid orchid; */
+    width: 1300px;
+    justify-content: space-around;
+}
+#premium,#basic-plus,#basic{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 70px 50px 70px;
+    display: flex;
+    background-color: #fff;
+    color: #545555;
+}
+.header{
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+#pacages ul{
+    list-style-type: none;
+}
+.header li{
+    margin: auto;
+}
+.price {
+    color: #8ace08;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#pacages-pricing .btn{
+    font-weight: normal;
+    background-color: lightseagreen;
+}
+#pacages-pricing .btn:hover{
+   background-color: rgb(32, 221, 211);
+   font-weight: bolder;
+}
+.btn-success{
+    background-color: #8ace08;
+}
+
+
+  
+     /*==================
+        Start New Project 
+       ==================*/
+.bg-green{
+    background-color: #8ec63f;
+}
+#new-project{
+    padding-top: 40px;
+}
+#new-project p{
+    text-align: center;
+    width: 640px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#new-project input {
+    text-decoration: none;
+    border: none;
+    padding: 0.2rem;
+    /* margin: 1rem 0.5rem; */
+    margin-right:8px ;
+    border-radius: 5px;
+}
+.btn{   
+     width: 200px;
+     text-transform: uppercase;
+     font-weight: bolder;
+     /* margin-top: 10px; */
+     padding: 2px;}
+#new-project form{
+    margin-top: 20px;
+}
+
+  /**================
+        CONTACTS
+     ================*/
+#contacts{
+    padding-top:20px;}     
+#first-para {
+    text-align: center;
+    width: 700px;
+    color: #cccdcf;}
+#inside-contacts > p{
+    font-size: larger;
+    color: black;
+    margin-left: 10px;}
+#inside-contacts li{
+    display: inline;
+    list-style: none;
+    margin-right: 50px;
+    font-size: larger;
+}       
+#inside-contacts .fas{/*Changing Color of Telephone's*/
+    color: #668e1a;
+} 
+#inside-contacts img{
+    width: 100%;
+}
+
+    /**==============
+        FOOTER'S
+       =============*/    
+footer{
+    background-color: #678e19;
+    display: flex;
+    padding-top: 20px;
+
+}
+footer p{
+    /* width: fit-content; */
+    /* border: 2px solid orchid; */
+    width: 400px;}
+footer h3{
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-right: 30px; 
+    margin-left: 30px;
+    /* border: 2px solid black; */
+    width: 185px;}    
+footer a{
+    text-decoration: none;
+    color: #fff;}
+footer li{
+    color: #fff;
+    list-style: none;}
+#footer-follow-us li{
+    display: inline;
+}
+#footer-follow-us {
+    margin-top: 30px;
+}
+
+#footer-follow-us .fab{
+    color: black;
+    padding: 4px;
+}
+#contacts-footer .fa-phone,.fa-envelope{
+    color: white;
+}
+
+
+#services-footer,#useful-links{
+    border-right: 2px solid #fff;
+}
+#services-footer,#useful-links,#contacts-footer {
+    margin: 30px auto 30px auto;
+}    
+#logo-footer p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
